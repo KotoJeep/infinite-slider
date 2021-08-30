@@ -1,1 +1,1 @@
-# infinite-slider
+# [Infinite slider]()

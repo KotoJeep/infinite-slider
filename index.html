@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width = device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Слайдер V2</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<div class="sidebar-item activeS" style="background: linear-gradient(0deg, rgba(163, 171, 175, 1) 0%, rgba(73, 48, 39, 1) 93%)">
+					<h1>Орел</h1>
+					<p>
+						Орлы - род крупных хищных птиц семейства Ястребиные. В состав рода входит примерно два десятка видов птиц, среди которых самыми заметными
+						являются Ястребиный орёл, Беркут, Могильник, Степной орёл. Многие виды птиц данного рода находятся под угрозой исчезновения.
+					</p>
+				</div>
+				<div class="sidebar-item" style="background: linear-gradient(0deg, rgba(138, 164, 107, 1) 0%, rgba(251, 223, 201, 1) 100%)">
+					<h1>Жираф</h1>
+					<p>
+						Жирафы - парнокопытное млекопитающее животное, являющееся единственным современным представителем рода Жирафы (также в род входят ещё 6-7
+						вымерших видов). Интересно, что эти животные считаются самыми высокими во всём мире.
+					</p>
+				</div>
+				<div class="sidebar-item" style="background: linear-gradient(0deg, rgba(124, 95, 77, 1) 0%, rgba(221, 222, 10, 1) 100%)">
+					<h1>Крокодил</h1>
+					<p>
+						Крокодилы - это отряд водных хищных рептилий. Известны они своими внушительными размерами, впечатляющей силой и огромной пастью, усеянной
+						множеством зубов. Благодаря этому представляют собой очень опасных хищников. И обитают они не только в воде, но и на суше, что делает их
+						ещё более опасными животными.
+					</p>
+				</div>
+				<div class="sidebar-item" style="background: linear-gradient(0deg, rgba(168, 120, 28, 1) 0%, rgba(0, 0, 0, 1) 85%)">
+					<h1>Лев</h1>
+					<p>
+						Львы - хищные млекопитающие рода Пантеры, относятся к семейству кошачьих. Среди кошек являются одними из самых крупных. За свои размеры,
+						силу и красоту лев получил лестную оценку от человека - Царь зверей.
+					</p>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="main-item activeM"><video src="video/Eagle.mp4" autoplay loop preload="auto"></video></div>
+				<div class="main-item"><video src="video/Lion.mp4" autoplay loop preload="auto"></video></div>
+				<div class="main-item"><video src="video/Crocodiles.mp4" autoplay loop preload="auto"></video></div>
+				<div class="main-item"><video src="video/Giraffe.mp4" autoplay loop preload="auto"></video></div>
+			</div>
+
+			<div class="buttons">
+				<button class="prev">
+					<i class="fas fa-arrow-up"></i>
+				</button>
+				<button class="next">
+					<i class="fas fa-arrow-down"></i>
+				</button>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
